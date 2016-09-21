@@ -71,11 +71,11 @@ public class MyApplication extends Application {
 
 如果项目需要混淆的话，请在```proguard```文件里添加如下代码：
 
--dontwarn com.visionet.mobileanalytics.**
+-dontwarn com.xiaobodata.mobileanalytics.**
 
--keep class com.visionet.mobileanalytics.******{*;}
+-keep class com.xiaobodata.mobileanalytics.******{*;}
 
--keep interface com.visionet.mobileanalytics.******{*;}
+-keep interface com.xiaobodata.mobileanalytics.******{*;}
 
 ---
 
