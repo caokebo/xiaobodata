@@ -15,5 +15,6 @@
         * [访问页面](visited_pages.md)
         * [自定义事件](custom_event.md)
         * [错误分析](error_analysis.md)
-* [Defining Methods](methods.md)
+* [统计分析](统计分析.md)
+    * [应用概况](应用概况.md)
 
