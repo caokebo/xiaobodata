@@ -4,7 +4,7 @@
 
 ![](/assets/create_product_picture.png)
 
-*号是必填项，填写完成后点击递交并获取AppKey。
+*号是必填项，填写完成后点击提交并获取AppKey。
 ![](/assets/create_product_picture1.png)
 
 
