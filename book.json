@@ -1,21 +1,18 @@
 {
-      "variables": {
-        "title": "前端工程师文档",
-        "theme": "theme-gray",
-        "copyright": "Copyright 2015 f2edocs.com"
-    },
-    "collapsible_menu":true,
-    "level_number":false,
-    "links": {
-        "gitbook": false,
-        "sharing": {
-            "all":false,
-            "vk": false,
-            "facebook": true,
-            "twitter": true,
-            "google": true,
-            "weibo": true
+        "plugins": [ "theme-api" ],
+    "pluginsConfig": {
+        "theme-api": {
+            "languages": [
+                {
+                    "lang": "js",
+                    "name": "JavaScript",
+                    "default": true
+                },
+                {
+                    "lang": "go",
+                    "name": "Go"
+                }
+            ]
         }
-
     }
 }
