@@ -6,6 +6,6 @@
 
 *号是必填项，输入应用名选择平台、渠道、应用类型以及输入应用描述，点击【提交并获取AppKey】按钮，成功获取AppKey，创建的应用记录显示在应用列表中。
 
-![](/assets/create_product_picture1.png)
+![123](/assets/create_product_picture1.png)
 
 然后点击确定，就此完成产品的创建。
