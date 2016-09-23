@@ -18,8 +18,8 @@
             ]
         },
         "ad": {
-            "contentTop": "ddd",
-            "contentBottom": "false"
+            "contentTop": "  ",
+            "contentBottom": "  "
         }
     }
 }
