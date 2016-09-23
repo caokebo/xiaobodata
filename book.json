@@ -3,7 +3,8 @@
         "ad",
         "theme-api",
         "theme-default",
-        "splitter" 
+        "splitter"
+        "donate"
     ],
     "pluginsConfig": {
         "theme-api": {
@@ -23,5 +24,13 @@
             "contentTop": "  ",
             "contentBottom": "  "
         }
+        "donate": {
+        "wechat": "http://zhangjikai.com/resource/weixin.png",
+        "alipay": "http://zhangjikai.com/resource/alipay.png",
+        "title": "",
+        "button": "赏",
+        "alipayText": "支付宝打赏",
+        "wechatText": "微信打赏"
+    }
     }
 }
