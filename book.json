@@ -1,6 +1,8 @@
 {
     "plugins": [
-        "ad"
+        "ad",
+        "theme-api",
+        "theme-default"
     ],
     "pluginsConfig": {
         "theme-api": {
