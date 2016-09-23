@@ -2,9 +2,8 @@
     "plugins": [
         "ad",
         "theme-api",
-        "theme-default"
+        "theme-default",
         "splitter"
-
     ],
     "pluginsConfig": {
         "theme-api": {
