@@ -3,6 +3,8 @@
         "ad",
         "theme-api",
         "theme-default"
+        "splitter"
+
     ],
     "pluginsConfig": {
         "theme-api": {
