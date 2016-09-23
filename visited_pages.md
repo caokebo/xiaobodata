@@ -13,12 +13,12 @@
 {% sample lang="Android" -%}
 * 进入页面的时候调用(在要统计的页面 onResume()里):
 
-```
+```java
 VmaAgent.onResume(Context context,String pageName)
 ```
 * 退出页面的时候调用(在要统计的页面 onPause()里):
 
-```
+```java
 VmaAgent.onPause(Context context)
 ```
 注意事项：
