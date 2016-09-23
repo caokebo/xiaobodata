@@ -1,7 +1,7 @@
 {
     "plugins": [
         "theme-api",
-        "blackbeard"
+        "ad"
     ],
     "pluginsConfig": {
         "theme-api": {
@@ -16,6 +16,10 @@
                     "name": "Go"
                 }
             ]
+        },
+        "ad": {
+            "contentTop": "ddd",
+            "contentBottom": "false"
         }
     }
 }
