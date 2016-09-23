@@ -77,5 +77,10 @@ public class MyApplication extends Application {
 
 -keep interface com.xiaobodata.mobileanalytics.******{*;}
 
----
+
+
+
+
+
+
 
