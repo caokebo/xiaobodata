@@ -3,7 +3,9 @@
         "ad",
         "theme-api",
         "theme-default",
-        "splitter"
+        "splitter",
+        "toggle-chapters"
+
     ],
     "pluginsConfig": {
         "theme-api": {
