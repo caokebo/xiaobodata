@@ -4,6 +4,7 @@
 
 ![](/assets/注册1.png)
 
+点击页面右上角【注册】按钮，进入注册页面，红色*标识必填项。
 
 ![](/assets/register_picture.png)
 
