@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "theme-api",
         "ad"
     ],
     "pluginsConfig": {
