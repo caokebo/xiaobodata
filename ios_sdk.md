@@ -1,5 +1,9 @@
 # iOS
+
 iOS SDK
+
+[iOS SDK更新日志及下载](http://xiaobodata.com/download.html)
+
 
 版 本 号: Version 1.1.0
 
