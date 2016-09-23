@@ -1,5 +1,8 @@
 {
-        "plugins": [ "theme-api" ],
+    "plugins": [
+        "theme-api",
+        "blackbeard"
+    ],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
