@@ -16,7 +16,7 @@
   1. 在 Android Studio 项目的 ```app``` 文件夹中，新建 ```libs``` 文件夹。
   2. 将 SDK 中的 ```jar``` 文件拷贝到工程的 ```libs``` 文件夹中。
   3. 修改 ```app``` 文件夹中的 ```build.gradle``` 文件，添加 ```dependencies``` 依赖项
-         compile files('libs/XiaoBoMobileanalytics.jar')
+         compile files('libs/MobAnalyticsSDK-WaveletData.jar')
   
 
 > **配置AndroidManifest.xml**
