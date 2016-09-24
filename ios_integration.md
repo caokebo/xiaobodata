@@ -15,17 +15,4 @@ SDK适用于 iOS7.0 及以上的系统
 
 > **配置AndroidManifest.xml**
 
-| 权限 | 权限描述 |
-
-| -- | -- |
-
-| ACCESS_NETWORK_STATE| 允许应用检测网络连接状态，当网络关闭或者异常时，不发送数据。 |
-
-| READ_PHONE_STATE| 允许应用读取手机信息，用户获取deviceID，作为用户的唯一标识。 |
-
-| ACCESS_WIFI_STATE| 当获取不到deviceID(设备为wifi版)时获取MCA地址，作为用户的唯一标识。 |
-
-| INTERNET| 允许应用访问互联网，用于用户数据的上传。 |
-
-| ACCESS_FINE_LOCATION| 可通过GPS获取设备的位置信息，用来修正用户的地域分布数据，使报表数据更准确。。 |
 
