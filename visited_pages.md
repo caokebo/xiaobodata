@@ -10,6 +10,8 @@
 > **功能集成**
 
 {% method -%}
+## Install {#install}
+
 {% sample lang="Android" -%}
 * 进入页面的时候调用(在要统计的页面 onResume()里):
 
