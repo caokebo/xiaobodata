@@ -18,7 +18,7 @@ SDK适用于 iOS7.0 及以上的系统
 | **库名称** | **说明** |
 | -- | -- |
 | Foundation.framework	 | 基础依赖库|
-| Security.framework	 | 用于APP连接圈选页面SSL连接|
+| Security.framework	 | 辅助存储设备标识|
 | CoreTelephony.framework| 用于读取运营商名称|
 | SystemConfiguration.framework| 用于检测网络状况|
 | SystemConfiguration.framework| 用于判断网络状态|
