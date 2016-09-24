@@ -36,7 +36,7 @@ SDK适用于 iOS7.0 及以上的系统
  
  ![](assets/otherLinkerFlags.png)
  
- > **初始化集成**
+> **初始化集成**
 
 在 ```AppDelegate.m``` 文件中导入 ```MobAnalytics.h``` ，并在 ```application:didFinishLaunchingWithOptions: ``` 方法中初始化 ```App Analytics SDK```。
 
