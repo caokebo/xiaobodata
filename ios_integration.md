@@ -13,7 +13,7 @@ SDK适用于 iOS7.0 及以上的系统
  提醒: 勾选 ```Copy items if needed```
 
 
-> **配置AndroidManifest.xml**
+> **添加依赖**
 
 | **库名称** | **说明** |
 | -- | -- |
