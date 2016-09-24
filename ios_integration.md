@@ -39,3 +39,12 @@ SDK适用于 iOS7.0 及以上的系统
  > **初始化集成**
 
 在 ```AppDelegate.m``` 文件中导入 ```MobAnalytics.h``` ，并在 ```application:didFinishLaunchingWithOptions: ``` 方法中初始化 ```App Analytics SDK```。
+
+```
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // App ID: 在小波数据官网创建应用后，进入数据报表页中，即可获取App ID。
+    [MobAnalytics startWithAppkey:@"您的 App ID"];
+        
+    return YES;
+}
+```
