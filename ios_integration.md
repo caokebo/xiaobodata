@@ -35,3 +35,7 @@ SDK适用于 iOS7.0 及以上的系统
  提醒:```Linking``` 设置位于 项目设置 ```target``` -> 选项卡 ```Build Settings```，左上角选择 ```All```
  
  ![](assets/otherLinkerFlags.png)
+ 
+ > **初始化集成**
+
+在 ```AppDelegate.m``` 文件中导入 ```MobAnalytics.h``` ，并在 ```application:didFinishLaunchingWithOptions: ``` 方法中初始化 ```App Analytics SDK```。
