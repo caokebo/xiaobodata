@@ -34,3 +34,4 @@ SDK适用于 iOS7.0 及以上的系统
  
  提醒:```Linking``` 设置位于 项目设置 ```target``` -> 选项卡 ```Build Settings```，左上角选择 ```All```
  
+ ![](assets/otherLinkerFlags.png)
