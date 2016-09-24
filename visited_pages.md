@@ -10,7 +10,7 @@
 > **功能集成**
 
 {% method -%}
- 1
+
 {% sample lang="Android" -%}
 * 进入页面的时候调用(在要统计的页面 onResume()里):
 
