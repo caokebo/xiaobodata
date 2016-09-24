@@ -31,3 +31,5 @@ SDK适用于 iOS7.0 及以上的系统
 
  1. 找到 ```Linking``` 设置。
  2. 在 ```Other Linker Flags``` 中添加 ```-ObjC``` 参数，请注意大小写
+ 
+ 提醒:```Linking``` 设置位于 项目设置 ```target``` -> 选项卡 ```Build Settings```，左上角选择 ```All```
