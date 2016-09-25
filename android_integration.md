@@ -63,6 +63,10 @@ public class MyApplication extends Application {
 
 注：
 1. 如果没有```Application```，请手动添加;
+
+
+
+
 2. ```VmaAgent.setDebugEnabled(true)```;//开启bebug模式，发布的时候请关闭;
 3. ```VmaAgent.setEncryptEnabled(true)```;//发送数据加密，默认不加密。
 
