@@ -26,7 +26,7 @@ VmaAgent.onPause(Context context)
 
 1. onResume和onPause要成对出现；
 2. pageName不能相同;
-3. 如果页面是fragment，那么不要再依赖的activity添加以上代码(避免重复统计)，直接在要统计的fragment的```onResume()```里调用VmaAgent.onPageStart(String pageName),```onPause()```里调用VmaAgent.onPageEnd(String pageName)。
+3. 如果页面是fragment，那么不要再依赖的activity添加以上代码(避免重复统计)，直接在要统计的fragment的`onResume()`里调用`VmaAgent.onPageStart(String pageName)`,`onPause()`里调用`VmaAgent.onPageEnd(String pageName)`。
 
 
 {% sample lang="iOS" -%}
