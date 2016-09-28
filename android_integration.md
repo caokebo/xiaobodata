@@ -18,7 +18,8 @@
   1. 在 Android Studio 项目的 `app` 文件夹中，新建 `libs` 文件夹。
   2. 将 SDK 中的 `jar` 文件拷贝到工程的 `libs` 文件夹中。
   3. 修改 `app` 文件夹中的 `build.gradle` 文件，添加 `dependencies` 依赖项
-    ```
+
+```
     compile files('libs/MobAnalyticsSDK-WaveletData.jar')
     ```
 
@@ -75,19 +76,20 @@ private void initVma() {
 
 1. 如果没有`Application`，请手动添加;
 
-1. `VmaAgent.setDebugEnabled(true)`;\/\/开启bebug模式，发布的时候请关闭;
+1. `VmaAgent.setDebugEnabled(true)`;\\\开启bebug模式，发布的时候请关闭;
 
-2. `VmaAgent.setEncryptEnabled(true)`;\/\/发送数据加密，默认不加密。
+2. `VmaAgent.setEncryptEnabled(true)`;\\\发送数据加密，默认不加密。
 
 > **代码混淆**
 
 如果项目需要混淆的话，请在`proguard`文件里添加如下代码：
 
 ```
--dontwarn com.xiaobodata.mobileanalytics.\*\*
+-dontwarn com.xiaobodata.mobileanalytics.**
 
--keep class com.xiaobodata.mobileanalytics.**\*\***{\*;}
+-keep class com.xiaobodata.mobileanalytics.**{*;}
 
--keep interface com.xiaobodata.mobileanalytics.**\*\***{\*;}
+-keep interface com.xiaobodata.mobileanalytics.**{*;}
+
 ```
 
