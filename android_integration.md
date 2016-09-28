@@ -46,7 +46,7 @@ APPKEY为开发者在后台申请的应用Appkey；
 
 请在Application里的onCreate()里进行初始化VmaAgent.init(this);
 
-
+```
 public class MyApplication extends Application {
 
     @Override
@@ -60,7 +60,7 @@ public class MyApplication extends Application {
 	        VmaAgent.init(this);
 	 }
 }
-
+```
 注：
 1. 如果没有```Application```，请手动添加;
 
