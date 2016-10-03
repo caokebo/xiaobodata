@@ -36,16 +36,16 @@
 | ACCESS\_FINE\_LOCATION | 可通过GPS获取设备的位置信息，用来修正用户的地域分布数据，使报表数据更准确。。 |
 
     <manifest……>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <application ……>
-    ……
-    <activity ……/>
-    <meta-data android:value="APPKEY" android:name="VMA_APPKEY" />
-    </application>    
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        <uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <application ……>
+            ……
+            <activity ……/>
+            <meta-data android:value="APPKEY" android:name="VMA_APPKEY" />
+        </application>    
     </manifest>```
 
 
