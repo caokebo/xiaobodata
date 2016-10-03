@@ -58,9 +58,16 @@ VmaAgent.onEvent(this, "投注事件id",map);
 
 {% sample lang="iOS" -%}
 
-```go
-fmt.Println("My first method")
+在应用程序要跟踪的事件处加入下面格式的代码，也就成功的添加了一个简单事件到您的应用程序中了：
+```java
+[MobAnalytics event:@"eventId"];
 ```
+
+为事件添加详尽的描述信息，可以更有效的对事件触发的条件和场景做分析，可按照下面格式添加代码
+```java
+[MobAnalytics event:eventId attributes:my_dictionary];
+```
+
 {% endmethod %}
 
 
