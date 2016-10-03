@@ -50,5 +50,6 @@ VmaAgent.onPause(Context context)
     [MobAnalytics endLogPageView:@"page_name"];
 }
 ```
+提醒: beginLogPageView 和 endLogPageView 必须成对调用。
 
 {% endmethod %}
