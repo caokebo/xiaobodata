@@ -30,9 +30,25 @@ VmaAgent.onPause(Context context)
 
 
 {% sample lang="iOS" -%}
-Here is how to print a message to `stdout` using iOS.
 
+在 ```viewWillAppear``` 或 ```viewDidAppear``` 方法里调用 ```beginLogPageView``` 方法：
+
+```java
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear: animated];
+    
+    [MobAnalytics beginLogPageView:@"page_name"];
+}
 ```
-fmt.Println("My first method")
+
+在 ```viewWillDisappear``` 或者 ```viewDidDisappear``` 方法里调用 ```endLogPageView``` 方法：
+
+```java
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear: animated];
+     
+    [MobAnalytics endLogPageView:@"home"];
+}
 ```
+
 {% endmethod %}
