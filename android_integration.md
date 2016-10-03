@@ -55,7 +55,6 @@
 请在Application里的`onCreate()`里进行初始化`VmaAgent.init(this)`;
 
 ```
-
 public class MyApplication extends Application {
 
 @Override
