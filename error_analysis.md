@@ -19,10 +19,8 @@ VmaAgent.init(this);
 
 {% sample lang="iOS" -%}
 
-```aa
-
-fmt.Println("My first method")
-
+```java
+[MobAnalytics setExceptionReportEnabled:YES];
 ```
 
 {% endmethod %}
