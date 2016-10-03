@@ -37,7 +37,7 @@ VmaAgent.onPause(Context context)
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear: animated];
     
-    [MobAnalytics beginLogPageView:@"page_name"];
+    [MobAnalytics beginLogPageView:@"page_name"];//("page_name"为页面名称，可自定义)
 }
 ```
 
@@ -47,7 +47,7 @@ VmaAgent.onPause(Context context)
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear: animated];
      
-    [MobAnalytics endLogPageView:@"page_name"];
+    [MobAnalytics endLogPageView:@"page_name"];//("page_name"为页面名称，可自定义)
 }
 ```
 提醒: ```beginLogPageView``` 和 ```endLogPageView``` 必须成对调用。
