@@ -8,7 +8,7 @@
 
 * Eclipse
 
-  1. 在项目里新建 `lisb` 文件夹\(如果存在就忽略这一步\)。
+  1. 在项目里新建 `libs` 文件夹\(如果存在就忽略这一步\)。
   2. 将SDK拷贝到项目的 `libs` 文件夹中。
 
   ![](android_integration_picture1.png)
