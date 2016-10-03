@@ -65,7 +65,13 @@ VmaAgent.onEvent(this, "投注事件id",map);
 
 为事件添加详尽的描述信息，可以更有效的对事件触发的条件和场景做分析，可按照下面格式添加代码
 ```java
-[MobAnalytics event:eventId attributes:my_dictionary];
+[MobAnalytics event:@"eventId" attributes:my_dictionary];
+```
+
+示例：统计电商应用中“购买”事件发生的次数，以及购买的商品类型及数量，那么在购买的函数里调用：
+```java
+NSDictionary *dict = @{@"type" : @"book", @"quantity" : @"3"};
+[MobAnalytics event:@"purchase" attributes:dict];  
 ```
 
 {% endmethod %}
