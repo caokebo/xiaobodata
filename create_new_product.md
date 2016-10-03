@@ -3,8 +3,10 @@
 在成功创建产品后，您会获得一个AppKey，用于唯一标识您的产品。如果是多个产品使用了同一个AppKey，数据只会计入这一款产品中。
 ![](create_product.png)
 
-> **导入SDK**
 
-  参阅以下地址来完成各平台的快速集成：
+### 快速集成
+
+
+参阅以下地址来完成各平台的快速集成：
 * [iOS](http://xiaobodata.com/manuel/ios_integration.html)
 * [Android](http://xiaobodata.com/manuel/android_integration.html)
