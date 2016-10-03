@@ -11,20 +11,20 @@
 {% method -%}
 
 {% sample lang="Android" -%}
-* 进入页面的时候调用(在要统计的页面 onResume()里):
+* 进入页面的时候调用(在要统计的页面 ```onResume()``` 里):
 
 ```java
 VmaAgent.onResume(Context context,String pageName)
 ```
-* 退出页面的时候调用(在要统计的页面 onPause()里):
+* 退出页面的时候调用(在要统计的页面 ```onPause()``` 里):
 
 ```java
 VmaAgent.onPause(Context context)
 ```
 注意事项：
 
-1. onResume和onPause要成对出现；
-2. pageName不能相同;
+1. ```onResume``` 和 ```onPause``` 要成对出现；
+2. ```pageName``` 不能相同;
 3. 如果页面是fragment，那么不要再依赖的activity添加以上代码(避免重复统计)，直接在要统计的fragment的`onResume()`里调用`VmaAgent.onPageStart(String pageName)`,`onPause()`里调用`VmaAgent.onPageEnd(String pageName)`。
 
 
