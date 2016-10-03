@@ -1,6 +1,5 @@
 # iOS
 
-iOS SDK
 
 [iOS SDK更新日志及下载](http://xiaobodata.com/download.html)
 
