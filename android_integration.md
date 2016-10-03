@@ -57,16 +57,16 @@
 ```
 public class MyApplication extends Application {
 
-@Override
-public void onCreate() {
-        super.onCreate();
-        initVma();
-}
-private void initVma() {
-        VmaAgent.setDebugEnabled(true);
-        VmaAgent.setEncryptEnabled(true);
-        VmaAgent.init(this);
- }
+    @Override
+    public void onCreate() {
+            super.onCreate();
+            initVma();
+    }
+    private void initVma() {
+            VmaAgent.setDebugEnabled(true);
+            VmaAgent.setEncryptEnabled(true);
+            VmaAgent.init(this);
+     }
 }
 ```
 
