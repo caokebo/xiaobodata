@@ -19,7 +19,10 @@ VmaAgent.init(this);
 
 {% sample lang="iOS" -%}
 
+自动获取异常信息，在 ```application:didFinishLaunchingWithOptions:``` 方法中调用：
 ```java
+// YES: 开启自动捕获
+// NO: 关闭自动捕获
 [MobAnalytics setExceptionReportEnabled:YES];
 ```
 
