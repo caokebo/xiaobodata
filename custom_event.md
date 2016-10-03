@@ -38,7 +38,7 @@ VmaAgent.onEvent(Context context, String event_id);
 
 ```@Override
 public void onClick(View v) {
-VmaAgent.onEvent(LoginActivity.this, "登录事件id");
+    VmaAgent.onEvent(LoginActivity.this, "登录事件id");
 }```
 
 * 如果你需要事件的其他信息，你可以这样添加代码：
@@ -51,9 +51,9 @@ VmaAgent.onEvent(Context context, String event_id,HashMap<String, String> map);
 
 ```@Override
 public void onClick(View v) {
-HashMap<String,String> map = new HashMap<String,String>();      
-map.put("team","英国 VS 法国");
-VmaAgent.onEvent(this, "投注事件id",map);
+    HashMap<String,String> map = new HashMap<String,String>();      
+    map.put("team","英国 VS 法国");
+    VmaAgent.onEvent(this, "投注事件id",map);
 }```
 
 {% sample lang="iOS" -%}
