@@ -6,5 +6,5 @@
 > **导入SDK**
 
   参阅以下地址来完成各平台的快速集成：
-  iOS
-  Android
+* [iOS](http://xiaobodata.com/manuel/ios_integration.html)
+* [Android](http://xiaobodata.com/manuel/android_integration.html)
