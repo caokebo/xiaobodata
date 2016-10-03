@@ -20,7 +20,7 @@
    * [用户管理](user_manager.md)
    * [用户分析](user_analytics.md)
    * [行为分析](behavior_analytics.md)
-   * [自定义事件](自定义事件.md)
+   * [自定义事件](event.md)
    * [终端属性](终端属性.md)
    * [错误分析](错误分析.md)
    * [消息推送](消息推送.md)
