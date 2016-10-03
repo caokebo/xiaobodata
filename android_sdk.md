@@ -1,16 +1,16 @@
 # Android
 
-Android SDK
 
-[Android SDK更新日志及下载](http://xiaobodata.com/download.html)
+[Android SDK最新版[点击下载]](http://xiaobodata.com/sdk/WaveletData-Android-SDK.zip)
 
-版 本 号: Version 1.1.1
+版 本 号: Version 1.2.0
 
-更新日期:2016-09-13
+发布日期:2016-09-20
 
-更新说明:
 
-1. 增加判断错误信息是否相同;
-2. 修复部分机型灵动事件闪退问题。
+**更新说明:**
+
+1. 增加无痕埋点功能
+2. 增加SDK版本字段
 
 
