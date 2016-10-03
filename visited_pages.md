@@ -47,7 +47,7 @@ VmaAgent.onPause(Context context)
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear: animated];
      
-    [MobAnalytics endLogPageView:@"home"];
+    [MobAnalytics endLogPageView:@"page_name"];
 }
 ```
 
