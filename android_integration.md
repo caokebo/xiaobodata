@@ -48,7 +48,6 @@
         </application>    
     </manifest>```
 
-
     APPKEY为开发者在后台申请的应用Appkey；
    > **SDK初始化**
 
