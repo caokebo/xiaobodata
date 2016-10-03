@@ -9,4 +9,4 @@
 
 参阅以下地址来完成各平台的快速集成：
 * <a href="http://xiaobodata.com/manuel/ios_integration.html" target="_self">iOS</a>
-* <a href="http://xiaobodata.com/manuel/android_integration.html" target="_self">Android</a>
+* <a href="http://xiaobodata.com/manuel/android_integration.html" target="_self">Android</a> 
