@@ -35,6 +35,7 @@
 | INTERNET | 允许应用访问互联网，用于用户数据的上传。 |
 | ACCESS\_FINE\_LOCATION | 可通过GPS获取设备的位置信息，用来修正用户的地域分布数据，使报表数据更准确。。 |
 
+```
     <manifest……>
         <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
         <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -46,9 +47,11 @@
             <activity ……/>
             <meta-data android:value="APPKEY" android:name="VMA_APPKEY" />
         </application>    
-    </manifest>```
+    </manifest>
+    ```
 
     APPKEY为开发者在后台申请的应用Appkey；
+    
    > **SDK初始化**
 
 请在Application里的`onCreate()`里进行初始化`VmaAgent.init(this)`;
