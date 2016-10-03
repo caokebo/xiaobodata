@@ -21,7 +21,7 @@ VmaAgent.init(this);
 
 自动获取异常信息，在 ```application:didFinishLaunchingWithOptions:``` 方法中调用：
 ```java
-// YES: 开启自动捕获
+// YES: 开启自动捕获，默认为开启状态
 // NO: 关闭自动捕获
 [MobAnalytics setExceptionReportEnabled:YES];
 ```
