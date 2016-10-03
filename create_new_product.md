@@ -8,5 +8,5 @@
 
 
 参阅以下地址来完成各平台的快速集成：
-* <a href="ios_integration.html">iOS</a>
-* <a href="android_integration.html">Android</a> 
+* [iOS](ios_integration.html)
+* [Android](android_integration) 
