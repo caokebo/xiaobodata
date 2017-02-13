@@ -15,4 +15,21 @@
 
 异步分析代码：此代码以异步加载形式进行加载，可以真正做到对网站打开速度完全没有影响，使用该代码能够大幅提升网站的打开速度，也可提升统计数据的准确性。不管是PC站点还是移动站点，小波数据都支持。
 
+```
+
+ <script type="text/javascript">
+ var _xbd = _xbd || [];
+ _xbd.push(['trackPageView']);
+
+ (function() {
+     var g = document.createElement("script");
+     g.src = "http://xiaobodata.com/xb.js?XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+     g.type='text/javascript'; g.async=true; g.defer=true;
+     var s = document.getElementsByTagName('script')[0];
+     s.parentNode.insertBefore(g,s);
+ })(); 
+</script>
+
+
+```
 
