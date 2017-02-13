@@ -9,14 +9,10 @@
   提醒: 勾选 `Copy items if needed`
 
 
-> **添加依赖**
+> **介绍**
 
-| **库名称** | **说明** |
-| --- | --- |
-| Foundation.framework | 基础依赖库 |
-| Security.framework | 辅助存储设备标识 |
-| CoreTelephony.framework | 用于读取运营商名称 |
-| SystemConfiguration.framework | 用于检测网络状况 |
+跟踪原理使用百度统计跟踪网站的流量，您需要在网站的每一个网页中加入百度统计的JavaScript代码。统计代码在创建站点时获取，一个站点对应一个代码跟踪ID。
 
-提醒: 添加项目依赖库的位置在 项目设置`target` -&gt; 选项卡`General` -&gt; `Linked Frameworks and Libraries`
+当用户浏览您网站的某一个页面时，这段JavaScript代码会被执行，将所收集到的访问参数发送到百度统计的服务器，百度统计根据跟踪ID对数据进行归类处理，然后展示到相应ID的站点统计报告里。正确安装统计代码后，一般20分钟左右后，即可以查看到统计数据。因此要想统计到完整的访问流量，必须在网站的每一个页面中都安装正确ID的百度统计代码。
+
 
