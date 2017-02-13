@@ -13,6 +13,7 @@
         * [iOS](ios_integration.md)
         * [HTML5](html5.md)
             * [代码安装](代码安装.md)
+            * [高级功能](高级功能.md)
     * [高级功能](advanced_function.md)
         * [访问页面](visited_pages.md)
         * [自定义事件](custom_event.md)
