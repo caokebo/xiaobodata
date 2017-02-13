@@ -11,7 +11,7 @@
     * [快速集成](fast_integration.md)
         * [Android](android_integration.md)
         * [iOS](ios_integration.md)
-        * HTML5
+        * [HTML5](html5.md)
     * [高级功能](advanced_function.md)
         * [访问页面](visited_pages.md)
         * [自定义事件](custom_event.md)
