@@ -8,9 +8,7 @@
 _xbd.push(['setUserId', '用户ID']);
 ```
 
-
 **API介绍**
-
 
 > **trackEvent说明**
 
@@ -70,3 +68,9 @@ _xbd.push([‘trackEvent’, 'Social', 'Share', 'Weibo', '1']);
 _xbd.push([‘trackEvent’, 'Social', 'Share', 'WeiChat', '1']);
 ```
 
+
+
+> **指定广告跟踪**
+
+设置方法：
+在小波数据“来源分析->推广管理”中，新增指定广告跟踪，填写下图所示的信息：目标URL、媒体平台和广告关键词。点击“确定”，小波数据会根据您所填写的内容生成一个带有参数的URL。![](/assets/ad_manage.png)
