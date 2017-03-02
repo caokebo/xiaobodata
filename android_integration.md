@@ -43,6 +43,7 @@
         <application ……>
             ……
             <activity ……/>
+            <!--可选-->
             <meta-data android:value="APPKEY" android:name="VMA_APPKEY" />
         </application>    
     </manifest>
@@ -52,8 +53,25 @@
 
 > **SDK初始化**
 
-1. 如果你没有在`AndroidManifest.xml`里配置Appkey,你可以使用`VmaAgent.init(Context context,String appKey)` 来设置Appkey。
-2. 如果你在`AndroidManifest.xml`里配置Appkey在Application里的`onCreate()`里进行初始化`VmaAgent.init(this)`;
+* 如果你没有在`AndroidManifest.xml`里配置Appkey,你可以在Application里的`onCreate()`里使用`VmaAgent.init(Context context,String appKey)` 来设置Appkey。
+
+```
+public class MyApplication extends Application {
+
+     @Override
+    public void onCreate() {
+            super.onCreate();
+            initVma();
+    }
+    private void initVma() {
+            VmaAgent.setDebugEnabled(true);//debug模式(可选,发布时去掉)
+            VmaAgent.setEncryptEnabled(true);//加密(可选)
+            VmaAgent.init(this,appkey);
+     }
+}
+```
+
+* 如果你在`AndroidManifest.xml`里配置Appkey在Application里的`onCreate()`里进行初始化`VmaAgent.init(this)`;
 
 ```
 public class MyApplication extends Application {
@@ -64,9 +82,9 @@ public class MyApplication extends Application {
             initVma();
     }
     private void initVma() {
-            VmaAgent.setDebugEnabled(true);
-            VmaAgent.setEncryptEnabled(true);
-            VmaAgent.init(this);//或者使用VmaAgent.init(this,appkey);
+            VmaAgent.setDebugEnabled(true);//debug模式(可选,发布时去掉)
+            VmaAgent.setEncryptEnabled(true);//加密(可选)
+            VmaAgent.init(this);
      }
 }
 ```
