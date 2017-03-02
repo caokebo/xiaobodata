@@ -21,9 +21,7 @@
 
 ```
     compile files('libs/MobAnalyticsSDK-WaveletData.jar')
-    ```
-
-
+```
 
 > **配置AndroidManifest.xml**
 
@@ -48,12 +46,14 @@
             <meta-data android:value="APPKEY" android:name="VMA_APPKEY" />
         </application>    
     </manifest>
-    ```
-提醒：APPKEY为开发者在后台申请的应用Appkey；
-    
-   > **SDK初始化**
+```
 
-请在Application里的`onCreate()`里进行初始化`VmaAgent.init(this)`;
+提醒：APPKEY为开发者在后台申请的应用Appkey；
+
+> **SDK初始化**
+
+1. 如果你没有在`AndroidManifest.xml`里配置Appkey,你可以使用`VmaAgent.init(Context context,String appKey)` 来设置Appkey。
+2. 如果你在`AndroidManifest.xml`里配置Appkey在Application里的`onCreate()`里进行初始化`VmaAgent.init(this)`;
 
 ```
 public class MyApplication extends Application {
@@ -66,19 +66,20 @@ public class MyApplication extends Application {
     private void initVma() {
             VmaAgent.setDebugEnabled(true);
             VmaAgent.setEncryptEnabled(true);
-            VmaAgent.init(this);
+            VmaAgent.init(this);//或者使用VmaAgent.init(this,appkey);
      }
 }
 ```
-
 
 注：
 
 1. 如果没有`Application`，请手动添加;
 
-1. `VmaAgent.setDebugEnabled(true)`;\\\开启bebug模式，发布的时候请关闭;
+2. `VmaAgent.setDebugEnabled(true)`;\开启bebug模式，发布的时候请关闭;
 
-2. `VmaAgent.setEncryptEnabled(true)`;\\\发送数据加密，默认不加密。
+3. `VmaAgent.setEncryptEnabled(true)`;\发送数据加密，默认不加密。
+
+4. 会优先使用`VmaAgent.init(Context context,String appKey)` 设置的appKey，没有的话再使用`AndroidManifest.xml`里面的。
 
 > **代码混淆**
 
@@ -90,6 +91,7 @@ public class MyApplication extends Application {
 -keep class com.xiaobodata.mobileanalytics.**{*;}
 
 -keep interface com.xiaobodata.mobileanalytics.**{*;}
-
 ```
+
+
 
