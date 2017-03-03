@@ -22,7 +22,8 @@
    </application>
 </manifest>
 ```
-![](/assets/feedback_dialog_hint.png)                          ![](/assets/feedback_activity.png)
+
+![](/assets/feedback_dialog_hint.png)![](/assets/feedback_activity.png)
 
 
 
