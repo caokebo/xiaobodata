@@ -32,3 +32,17 @@
 
 ![](assets/code.png)
 
+
+> **如何对AngularJS进行数据统计**
+
+
+我们知道单页应用实际只加载一个HTML文件，跳转是通过监听hashchange或者pushstate来完成的，因此传统的页面加载统计无法统计到用户在SPA中的跳转，所以需要在代码中手动添加跳转时发送PV的代码。
+
+添加代码的具体方法如下：
+
+```
+angular.module('TestApp') .run(PVHandler); function PVHandler($rootScope, $location, $timeout) { $rootScope.$on('$stateChangeSuccess', function() { $timeout(function () { ga && ga('send', 'pageview', { page: $location.url(), // 手动设置 path title: document.title // 也可以手动设置页面标题 }); }, 0, false); }); }
+
+```
+
+
