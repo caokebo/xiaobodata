@@ -48,7 +48,8 @@ function XBAnalyticsProvider($rootScope, $location, $timeout) {
         $timeout(function () {
             _xbd.push(['setCustomUrl', $location.absUrl()]);
             _xbd.push(['trackPageView', document.title]);
-        }, 0, false); });
+        }, 0, false); 
+});
 
 
 ```
