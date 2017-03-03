@@ -23,6 +23,7 @@
 </manifest>
 ```
 
+![](/assets/feedback_dialog_hint.png)
 
 
 1.设置摇一摇反馈功能是否激活
