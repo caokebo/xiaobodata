@@ -41,8 +41,17 @@
 添加代码的具体方法如下：
 
 ```
-angular.module('TestApp') .run(PVHandler); function PVHandler($rootScope, $location, $timeout) { $rootScope.$on('$stateChangeSuccess', function() { $timeout(function () { ga && ga('send', 'pageview', { page: $location.url(), // 手动设置 path title: document.title // 也可以手动设置页面标题 }); }, 0, false); }); }
+angular.module('DemoApp') .run(XBAnalyticsProvider);
+
+function XBAnalyticsProvider($rootScope, $location, $timeout) {
+    $rootScope.$on('$stateChangeSuccess', function () {
+        $timeout(function () {
+            _xbd.push(['setCustomUrl', $location.absUrl()]);
+            _xbd.push(['trackPageView', document.title]);
+        }, 0, false); });
+
 
 ```
+
 
 
