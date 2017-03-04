@@ -17,7 +17,7 @@
 <manifest……>
    <application ……>
    ……
-     <!--可选-->
+     <!-- 可选 -->
      <activity android:name="com.xiaobodata.mobileanalytics.activity.XBFeedbackActivity"/>
    </application>
 </manifest>
